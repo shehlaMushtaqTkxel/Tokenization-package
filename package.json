@@ -1,7 +1,7 @@
 {
-  "name": "tokenization-pakage",
+  "name": "catalyst-design-system",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.3",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -14,13 +14,13 @@
   ],
   "exports": {
     ".": {
-      "import": "./dist/tokenization-pakage.es.js",
-      "require": "./dist/tokenization-pakage.umd.js"
+      "import": "./dist/catalyst-design-system.es.js",
+      "require": "./dist/catalyst-design-system.umd.js"
     },
     "./dist/style.css": "./dist/style.css"
   },
-  "main": "./dist/tokenization-pakage.umd.js",
-  "module": "./dist/tokenization-pakage.es.js",
+  "main": "./dist/catalyst-design-system.umd.js",
+  "module": "./dist/catalyst-design-system.es.js",
   "types": "./dist/index.d.ts",
   "devDependencies": {
     "@types/node": "^18.7.6",
@@ -30,14 +30,17 @@
     "@typescript-eslint/parser": "^6.0.0",
     "@vitejs/plugin-react": "^4.0.3",
     "eslint": "^8.45.0",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.4.3",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.30.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
     "prettier": "^2.7.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/joy": "^5.0.0-beta.48",
     "typescript": "^5.0.2",
     "vite": "^4.4.5",
     "vite-plugin-dts": "^1.4.1",
@@ -45,17 +48,21 @@
   },
   "peerDependencies": {
     "react": "16.8.0 || >=17.x",
-    "react-dom": "16.8.0 || >=17.x"
+    "react-dom": "16.8.0 || >=17.x",
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/joy": "^5.0.0-beta.48"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/husnaingohartkxel/rep-design-system"
+    "url": "https://github.com/shehlaMushtaqTkxel/Tokenization-package.git"
   },
   "keywords": [],
   "author": "Shehla Mushtaq",
   "bugs": {
-    "url": "https://github.com/husnaingohartkxel/rep-design-system/issues"
+    "url": "https://github.com/shehlaMushtaqTkxel/Tokenization-package.git/issues"
   },
-  "homepage": "https://github.com/husnaingohartkxel/rep-design-system#readme",
-  "license": "MIT"
+  "homepage": "https://github.com/shehlaMushtaqTkxel/Tokenization-package.git#readme",
+  "license": "MIT",
+  "dependencies": {}
 }

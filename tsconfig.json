@@ -2,11 +2,7 @@
   "compilerOptions": {
     "target": "ESNext",
     "useDefineForClassFields": true,
-    "lib": [
-      "DOM",
-      "DOM.Iterable",
-      "ESNext"
-    ],
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "allowJs": false,
     "allowSyntheticDefaultImports": true,
     "strict": true,
@@ -19,25 +15,17 @@
     "jsx": "react-jsx",
     "declaration": true,
     "skipLibCheck": true,
-    "esModuleInterop": true,
-    "declarationMap": true,
+     "esModuleInterop": true ,
+     "declarationMap": true,
     "baseUrl": ".",
-    "paths": {
-      "rep-design-system": [
-        "src/component/index.ts"
-      ]
+     "paths": {
+      "rep-design-system": [ "src/index.ts" ]
     },
     "typeRoots": [
       "node_modules/@types",
       "src/component/index.d.ts"
     ]
   },
-  "include": [
-    "src"
-  ],
-  "references": [
-    {
-      "path": "./tsconfig.node.json"
-    }
-  ]
+  "include": ["src", "main.tsx"],
+  "references": [{ "path": "./tsconfig.node.json" }]
 }

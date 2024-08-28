@@ -1,0 +1,1 @@
+{"version":3,"file":"fontWeight.d.ts","sourceRoot":"","sources":["fontWeight.ts"],"names":[],"mappings":"AAAA,OAAO,QAAQ,iBAAiB,CAAC;IAC/B,UAAU,UAAU;QAClB,OAAO,CAAC,EAAE,MAAM,CAAC;QACjB,MAAM,CAAC,EAAE,MAAM,CAAC;QAChB,WAAW,CAAC,EAAE,MAAM,CAAC;QACrB,IAAI,CAAC,EAAE,MAAM,CAAC;KACf;CACF;AAED,eAAO,MAAM,UAAU;;;;;CAKtB,CAAC"}
