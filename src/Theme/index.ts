@@ -12,7 +12,7 @@ import { paragraphSpacing } from "../Tokens/paragraphSpacing";
 import { height } from "../Tokens/height";
 
 import { Button } from "../Components/Button";
-// import { IconButton } from "../Components/IconButton";
+import { IconButton } from "../Components/IconButton";
 
 export const theme: CssVarsThemeOptions = extendTheme({
   //tokens
@@ -31,6 +31,6 @@ export const theme: CssVarsThemeOptions = extendTheme({
   radius,
   components: {
     JoyButton: Button,
-    // JoyIconButton: IconButton,
+    JoyIconButton: IconButton,
   },
 });
