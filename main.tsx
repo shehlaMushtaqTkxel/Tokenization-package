@@ -1,10 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { CssBaseline, CssVarsProvider, GlobalStyles } from "@mui/joy";
+import { theme } from "./src/Theme";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <CssVarsProvider defaultMode="light" disableTransitionOnChange>
+    <CssVarsProvider
+      defaultMode="light"
+      disableTransitionOnChange
+      //@ts-ignore
+      theme={theme}
+    >
       <CssBaseline />
       <GlobalStyles
         styles={{

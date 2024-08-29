@@ -10,5 +10,6 @@ export { height } from "./Tokens/height";
 export { typography } from "./Tokens/typography";
 export { lineHeight } from "./Tokens/lineHeight";
 export { letterSpacing } from "./Tokens/letterSpacing";
+export { theme } from "./Theme/index";
 export declare const testPackage: () => string;
 //# sourceMappingURL=index.d.ts.map

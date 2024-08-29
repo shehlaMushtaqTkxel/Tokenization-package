@@ -1,7 +1,7 @@
 {
   "name": "catalyst-design-system",
   "private": false,
-  "version": "1.0.3",
+  "version": "1.0.14",
   "type": "module",
   "scripts": {
     "dev": "vite",
