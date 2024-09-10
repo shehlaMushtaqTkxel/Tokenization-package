@@ -1,13 +1,14 @@
 {
   "name": "catalyst-design-system",
   "private": false,
-  "version": "1.0.14",
-  "type": "module",
+  "version": "1.0.15",
+  "type": "commonjs",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "run-function": "ts-node build.ts"
   },
   "files": [
     "dist"
@@ -23,6 +24,9 @@
   "module": "./dist/catalyst-design-system.es.js",
   "types": "./dist/index.d.ts",
   "devDependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/joy": "^5.0.0-beta.48",
     "@types/node": "^18.7.6",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
@@ -38,20 +42,18 @@
     "prettier": "^2.7.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "@emotion/react": "^11.13.3",
-    "@emotion/styled": "^11.13.0",
-    "@mui/joy": "^5.0.0-beta.48",
-    "typescript": "^5.0.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4",
     "vite": "^4.4.5",
     "vite-plugin-dts": "^1.4.1",
     "vite-tsconfig-paths": "^3.5.0"
   },
   "peerDependencies": {
-    "react": "16.8.0 || >=17.x",
-    "react-dom": "16.8.0 || >=17.x",
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
-    "@mui/joy": "^5.0.0-beta.48"
+    "@mui/joy": "^5.0.0-beta.48",
+    "react": "16.8.0 || >=17.x",
+    "react-dom": "16.8.0 || >=17.x"
   },
   "repository": {
     "type": "git",
@@ -63,6 +65,5 @@
     "url": "https://github.com/shehlaMushtaqTkxel/Tokenization-package.git/issues"
   },
   "homepage": "https://github.com/shehlaMushtaqTkxel/Tokenization-package.git#readme",
-  "license": "MIT",
-  "dependencies": {}
+  "license": "MIT"
 }

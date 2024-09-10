@@ -1,31 +1,30 @@
 {
   "compilerOptions": {
+    "module": "ESNext",
     "target": "ESNext",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "skipLibCheck": true, // Optional but can prevent type-checking issues with 3rd party libraries
     "useDefineForClassFields": true,
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "allowJs": false,
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
-    "module": "ESNext",
-    "moduleResolution": "Node",
-    "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
     "declaration": true,
-    "skipLibCheck": true,
-     "esModuleInterop": true ,
-     "declarationMap": true,
+    "declarationMap": true,
     "baseUrl": ".",
-     "paths": {
-      "rep-design-system": [ "src/index.ts" ]
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "paths": {
+      "tokenization-package": ["src/index.ts"]
     },
-    "typeRoots": [
-      "node_modules/@types",
-      "src/component/index.d.ts"
-    ]
+    "typeRoots": ["node_modules/@types", "src/component/index.d.ts"]
   },
-  "include": ["src", "main.tsx"],
+  // "include": ["src", "main.tsx", "build.ts"],
+  "include": ["src/**/*.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
